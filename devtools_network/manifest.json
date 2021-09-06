@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "name": "Devtool Test",
+    "description": "Use chrome.devtools.* api show img src in devtool's sidebar.",
+    "browser_action": {
+        "default_title": "Popup Page",
+        "default_popup": "./html/devtools.html"
+    },
+    "devtools_page": "./html/devtools.html",
+    "permissions": [
+        "activeTab"
+    ]
+}
